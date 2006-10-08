@@ -35,7 +35,7 @@ Status of this package is: %{_status}.
 
 %description -l pl
 Phlickr to biblioteka dla PHP5 zaprojektowana by "opakowaæ" API us³ug
-sieciowych dostarczonych przez Flickr, serwis zdjêæ online. Phlickr
+sieciowych dostarczonych przez serwis zdjêæ online Flickr. Phlickr
 korzysta z rozszerzeñ CURL oraz SimpleXML.
 
 Ta klasa ma status: %{_status}.
@@ -74,7 +74,7 @@ fi
 %defattr(644,root,root,755)
 %doc install.log optional-packages.txt
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/Phlickr/
+%{php_pear_dir}/Phlickr
 
 %files tests
 %defattr(644,root,root,755)
