@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Access the Flickr API (PHP 5)
 Summary(pl):	%{_pearname} - Dostêp do API Flickr (PHP 5)
 Name:		php-%{_pearname}
 Version:	0.2.6
-Release:	1
+Release:	2
 Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
@@ -17,8 +17,8 @@ Source0:	http://dl.sourceforge.net/phlickr/%{_pearname}-%{version}.tgz
 URL:		http://phlickr.sourceforge.net/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php(curl)
 Requires:	php-common >= 4:5.0.0
-Requires:	php-curl
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
