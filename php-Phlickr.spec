@@ -5,7 +5,7 @@
 %define		_status		beta
 %define		_pearname	Phlickr
 Summary:	%{_pearname} - Access the Flickr API (PHP 5)
-Summary(pl):	%{_pearname} - Dostêp do API Flickr (PHP 5)
+Summary(pl.UTF-8):   %{_pearname} - DostÄ™p do API Flickr (PHP 5)
 Name:		php-%{_pearname}
 Version:	0.2.6
 Release:	2
@@ -33,16 +33,16 @@ requires that PHP5 be compiled with the CURL and SimpleXML extensions.
 
 Status of this package is: %{_status}.
 
-%description -l pl
-Phlickr to biblioteka dla PHP5 zaprojektowana by "opakowaæ" API us³ug
-sieciowych dostarczonych przez serwis zdjêæ online Flickr. Phlickr
-korzysta z rozszerzeñ CURL oraz SimpleXML.
+%description -l pl.UTF-8
+Phlickr to biblioteka dla PHP5 zaprojektowana by "opakowaÄ‡" API usÅ‚ug
+sieciowych dostarczonych przez serwis zdjÄ™Ä‡ online Flickr. Phlickr
+korzysta z rozszerzeÅ„ CURL oraz SimpleXML.
 
 Ta klasa ma status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 Requires:	php-pear-PHPUnit2
@@ -51,7 +51,7 @@ AutoReq:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
