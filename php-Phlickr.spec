@@ -5,7 +5,7 @@
 %define		_status		beta
 %define		_pearname	Phlickr
 Summary:	%{_pearname} - Access the Flickr API (PHP 5)
-Summary(pl.UTF-8):   %{_pearname} - Dostęp do API Flickr (PHP 5)
+Summary(pl.UTF-8):	%{_pearname} - Dostęp do API Flickr (PHP 5)
 Name:		php-%{_pearname}
 Version:	0.2.6
 Release:	2
@@ -42,7 +42,7 @@ Ta klasa ma status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 Requires:	php-pear-PHPUnit2
