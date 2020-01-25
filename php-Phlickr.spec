@@ -1,7 +1,6 @@
 # TODO:
 #  - this isn't a PEAR package - it's merely PEAR compatible,
 #    maybe we should keep these somewhere outside PEAR tree?
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Phlickr
 Summary:	%{_pearname} - Access the Flickr API (PHP 5)
